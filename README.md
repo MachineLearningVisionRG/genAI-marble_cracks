@@ -11,10 +11,6 @@ Fig. 1. The proposed generation and evaluation pipeline. Real marble crack image
 Furthermore, we use the generated synthetic datasets to test the best two performing combination models from our previous work [1]: Feature Pyramid Network (FPN) and U-Net, both with efficientnetb4 backbone. The original full-resolution images of the MCS-2 dataset is cropped in 440 image patches, referring to the real image dataset. Fig. 2 illustrates samples of real and generated marble crack images by using the four synthesis models after training for 200 epochs.
 
 
-## Dataset Structure
-The dataset consists of real and generated marble crack images, organized as follows:
-
-### **Folder Structure**
 |Real Samples| <img src="media/real_1.jpg" width="100" height="100">  | <img src="media/real_2.jpg" width="100" height="100">|<img src="media/real_3.jpg" width="100" height="100">| <img src="media/real_4.jpg" width="100" height="100"> | <img src="media/real_5.jpg" width="100" height="100"> | <img src="media/real_6.jpg" width="100" height="100"> | <img src="media/real_7.jpg" width="100" height="100"> |
 |-------------|----------------|-------------|-------------|-------------|-------------|-------------|-------------|
 | GAN | <img src="media/gan_1.jpg" width="100" height="100" style="display: block; margin: auto;">  |<img src="media/gan_2.jpg" width="100" height="100">|<img src="media/gan_3.jpg" width="100" height="100">| <img src="media/gan_4.jpg" width="100" height="100"> | <img src="media/gan_5.jpg" width="100" height="100"> | <img src="media/gan_6.jpg" width="100" height="100"> | <img src="media/gan_7.jpg" width="100" height="100"> |
